@@ -4,7 +4,7 @@ resource "null_resource" "build_layer" {
     interpreter = ["bash"]
   }
   triggers = {
-    always_run = "${timestamp()}"
+    always_run = timestamp()
   }
 }
 

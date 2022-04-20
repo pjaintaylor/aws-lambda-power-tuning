@@ -1,7 +1,6 @@
-variable "aws_region" {
-  default = "eu-west-1"
+variable "region" {
+  default = "us-east-1"
 }
-
-variable "account_id" {
-  default = "123456789101"
+variable "short_env" {
+  default = "dev"
 }
